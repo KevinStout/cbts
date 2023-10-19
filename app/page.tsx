@@ -1,9 +1,10 @@
-import Image from "next/image";
+import { ModeToggle } from "@/components/ui/mode-toggle";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello mom!</h1>
+      <Header />
     </main>
   );
 }
